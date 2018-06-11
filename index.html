@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menedżer kontaktów</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <div class="info">
+        <h1>Projekt</h1>
+        <br> Aplikacja - menedżer kontaktów
+        <br>
+        <ul>
+            <li>Podział na komponenty w React.js</li>
+            osobny komponent do wyświetlania avatarów, który przyjmuje jako props tylko
+            <q>login</q>. Stworzony komponent z avatarem posiada obrazki gdy login nie jest mailem; gdy jest mailem to korzysta
+            z Gravatara.
+            <li>Klasy jako komponenty React.js</li>
+            <li>Interakcja z komponentami React.js</li>
+            zdarzenia w React.js
+        </ul>
+    </div>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/babel" src="app.jsx"></script>
+</body>
+
+</html>
